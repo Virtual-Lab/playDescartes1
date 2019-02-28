@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Diagram</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" media="all">
+
+    <!-- Script für html5 für ältere Browser -->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->    
+
+</head>
+<body>
+
+<div class="main">
+  <h2>Device Orientation</h2>
+  <table>
+    <tr>
+      <td>Event Supported</td>
+      <td id="doEvent"></td>
+    </tr>
+    <tr>
+      <td>Tilt Left/Right [gamma]</td>
+      <td id="doTiltLR"></td>
+    </tr>
+    <tr>
+      <td>Tilt Front/Back [beta]</td>
+      <td id="doTiltFB"></td>
+    </tr>
+    <tr>
+      <td>Direction [alpha]</td>
+      <td id="doDirection"></td>
+    </tr>
+   </table>
+</div>
+
+<div class="container" style="perspective: 300;">
+  <img src="images/sun.gif" id="imgLogo" class="logo">
+</div>
+
+
+<!-- uncomment lines below to include extra js libraries -->
+<!-- <script language="javascript" type="text/javascript" src="js/somelibrary.js"></script> -->
+
+<script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+
+</body>
+</html>
